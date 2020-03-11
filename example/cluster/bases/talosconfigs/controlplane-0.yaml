@@ -1,0 +1,10 @@
+apiVersion: bootstrap.cluster.x-k8s.io/v1alpha2
+kind: TalosConfig
+metadata:
+  name: controlplane-0
+  labels:
+    cluster.x-k8s.io/cluster-name: example-0
+spec:
+  generateType: none
+  data: |
+    <-- EDIT ME -->

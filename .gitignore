@@ -1,0 +1,3 @@
+example/cluster/generate
+example/arges/discovery_kubeconfig_patch.yaml
+example/arges/default_environment_patch.yaml
